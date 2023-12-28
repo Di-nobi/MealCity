@@ -18,6 +18,8 @@ code {
 
 body {
   margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -52,15 +54,26 @@ nav > img {
 .card {
   width: 175px;
   font-size: 12px;
-  padding-left: 20px;
+  margin-left: 20px;
+  border-radius: 9px;
 }
 
 .card--image {
   width: 100%;
   border-radius: 9px;
+
 }
 
 .card--stats {
   display: flex;
   align-items: center;
+}
+
+.business--name {
+  color:white;
+  font-size: 250px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  font-family: 'Lobster Two', sans-serif;
 }
