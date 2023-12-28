@@ -52,6 +52,7 @@ nav > img {
 .card {
   width: 175px;
   font-size: 12px;
+  padding-left: 20px;
 }
 
 .card--image {
