@@ -23,24 +23,43 @@ body {
 nav {
   height: 70px;
   display: flex;
+  align-items: center;
+  padding: 30px 25px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.Hero--image {
-  width: 100%;
-  height: auto;
-  /* align-self: center; */
-  background-position: center;
-  background-size: cover;
-  margin-top: 10px;
-  background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/omotayo-tajudeen-ME416b6sp2I-unsplash.jpg);
+nav > img {
+  height: 80px;
+  margin-right: 7px;
+}
+
+.my--list {
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+}
+
+.my--list li {
+  margin-right: 15px;
 }
 
 /* section {
-  padding: 20px;
+  background-image: url(../src/images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
 } */
 
-.Hero {
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
